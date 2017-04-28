@@ -1,0 +1,1 @@
+beagle1 = "good dog"beagle2 = "bad dog"dog = ""    unless dog == "good dog"        puts 'Not a good doggie. You are not allowed inside!"    else        puts 'Good doggie! Whuut a good doggie! Eere ya go!'    endgoodDog(dog)puts "Testestetset!"
