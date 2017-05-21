@@ -2,17 +2,18 @@
 # ----------- Ruby Language | Practice ------------------------
 # ------------------------------------------------------------- 
 
-def greeter(name)
-  return "Hello there #{name}!"
+def alphabetize(arr, rev=false)
+  arr.sort!
+  if rev == true
+    arr.reverse!
+  end
+  return arr
 end
 
-def by_three?(number)
-  return number % 3 == 0
-end
+numbers = [2,5,1,8,4]
 
-puts greeter("Franco")
+puts alphabetize(numbers)
 
-puts by_three?(23)
 
 
 
@@ -25,5 +26,3 @@ puts by_three?(23)
 
 # --- EOF ---
 # ------------------------------------------------------------- 
-
-
