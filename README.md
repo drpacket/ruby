@@ -1,2 +1,5 @@
-# ruby
-```=> Ruby snippets 
+# Ruby
+---
+```
+=> Ruby snippets
+```
